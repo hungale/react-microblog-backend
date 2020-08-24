@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS "microblog";
+DROP DATABASE IF EXISTS "dcqlco306o05ev";
 
-CREATE DATABASE "microblog";
+CREATE DATABASE "dcqlco306o05ev";
 
-\c "microblog"
+\c "dcqlco306o05ev"
 
 CREATE TABLE posts (id SERIAL PRIMARY KEY, 
                     title TEXT NOT NULL, 
